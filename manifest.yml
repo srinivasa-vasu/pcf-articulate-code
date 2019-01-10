@@ -1,9 +1,9 @@
 applications:
-- name: articulate
+- name: articulate-sv
   memory: 1G
   instances: 1
   path: ./target/articulate-1.0.jar
   routes:
-  - route: 
+  - route: articulate-sv.cfapps.io 
   services:
    - attendee-service
